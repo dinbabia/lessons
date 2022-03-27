@@ -49,7 +49,7 @@
 #=========LIST COMPRE + INDEX===========
 # a = [2,3,4,5,6,7]
 # b = [x**3 for x in a if x%2==0]
-# c = [x**3 if x%2==0 else f"{x} is no even" for x in a]
+# c = [x**3 if x%2==0 else f"{x} is no even" for x in a] #This is also a ternary operator
 # print(b)
 # print(c)
 # print(a.index(3))
@@ -60,3 +60,4 @@
 # w,x,*y,z =sample2
 # print(e)
 # print(y)
+

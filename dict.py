@@ -20,9 +20,9 @@
 
 #=========Delete, add, edit===========
 # sample = dict(name='Din', age=25 )
-# sample['name'] = 'Din Babia'
-# sample['email'] = 'iamdin@facebook.com'
-# del sample['age']
+# sample['name'] = 'Din Babia' #edit
+# sample['email'] = 'iamdin@facebook.com' #add
+# del sample['age'] #del
 # print(sample)
 
 #=========Pop, pop item===========
@@ -32,10 +32,10 @@
 # print(sample)
 
 #=========UPDATE===========
-sample = dict(name='Din', age=25 )
-sample2 = dict(name='Din', age=25, email='iamdin@facebook.com' )
-sample3 = dict(name='Din', age=25, email='iamdin@facebook.com', address='tokyo')
-sample.update(sample2)
-sample3.update(sample2)
-print(sample)
-print(sample3)
+# sample = dict(name='Din', age=25 )
+# sample2 = dict(name='Din', age=25, email='iamdin@facebook.com' )
+# sample3 = dict(name='Din', age=25, email='iamdin@facebook.com', address='tokyo')
+# sample.update(sample2)
+# sample3.update(sample2)
+# print(sample)
+# print(sample3)

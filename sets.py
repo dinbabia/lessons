@@ -82,7 +82,7 @@
 # setA = {1,2,3,4,5,6}
 # setB = {1,2,3}
 # setC = {7,8,9}
-# print(setA.isdisjoint(setB)) #false if they have the same elements
+# print(setA.isdisjoint(setB)) #FALSE if they HAVE SAME ELEMENTS
 # print(setB.isdisjoint(setA))
 # print(setC.isdisjoint(setA))
 
