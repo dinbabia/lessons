@@ -8,7 +8,7 @@ from itertools import product, permutations, combinations, combinations_with_rep
 #infinite operators ( count,cycle,repeat)
 
 # =========product===========
-#combine, murag foil method
+# combine, murag foil method
 # a =[1,2,3]
 # b = [4,5,6]
 # prod = product(a,b)
@@ -72,7 +72,7 @@ from itertools import product, permutations, combinations, combinations_with_rep
 #INFINITE LOOPS
 
 #COUNT
-# for i in count(10):
+# for i in count(10, 2):
 #     print(i)
 #     if i == 50:
 #         break
@@ -90,5 +90,5 @@ from itertools import product, permutations, combinations, combinations_with_rep
 #             print('again')
 
 #REPEAT
-for i in repeat('hi', 4):
-    print(i)
+# for i in repeat('hi', 4):
+#     print(i)
